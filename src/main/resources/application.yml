@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: jpashop
+
+  datasource:
+    url: jdbc:mysql://fixhounds.site:3306/jpashop
+    username: test
+    password: test
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
